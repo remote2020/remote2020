@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-08T19:56:43.844Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="h7pxQbCJsWYBqqTvGTGB" version="14.5.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-09T11:40:21.862Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="rmO7H0evtotnlo9k1x7E" version="14.5.8" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="803" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -62,12 +62,23 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Bug4nAYiipdmqKy-LNkw" name="Page-2">
-    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="803" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="EpLAV4IU8pRYglaCj_oc-0" />
         <mxCell id="EpLAV4IU8pRYglaCj_oc-1" parent="EpLAV4IU8pRYglaCj_oc-0" />
-        <mxCell id="EpLAV4IU8pRYglaCj_oc-3" value="&lt;h1&gt;Heading&lt;/h1&gt;&lt;p&gt;typedef struct _SenderMsgAttr&lt;/p&gt;&lt;p&gt;{&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;ATCmd;&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;byte *buffer;&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;CmdTimeout;&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;CMDRcvdCallBack;//komut geldiğinde o komut için ne yapılacak fonksiyonu&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;CMDTrycount;&lt;/p&gt;&lt;p&gt;}SenderMsgAttr;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="EpLAV4IU8pRYglaCj_oc-1">
+        <mxCell id="EpLAV4IU8pRYglaCj_oc-3" value="&lt;h1&gt;Heading&lt;/h1&gt;&lt;p&gt;typedef struct _SenderMsgAttr&lt;/p&gt;&lt;p&gt;{&lt;/p&gt;&lt;p&gt;&lt;span&gt; &lt;/span&gt;ATCmd;&lt;/p&gt;&lt;p&gt;&lt;span&gt; &lt;/span&gt;byte *buffer;&lt;/p&gt;&lt;p&gt;&lt;span&gt; &lt;/span&gt;CmdTimeout;&lt;/p&gt;&lt;p&gt;&lt;span&gt; &lt;/span&gt;CMDRcvdCallBack;//komut geldiğinde o komut için ne yapılacak fonksiyonu&lt;/p&gt;&lt;p&gt;&lt;span&gt; &lt;/span&gt;CMDTrycount;&lt;/p&gt;&lt;p&gt;}SenderMsgAttr;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="EpLAV4IU8pRYglaCj_oc-1" vertex="1">
           <mxGeometry x="30" y="80" width="620" height="280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="whnwRXm6kr4BsJf86RfA" name="Page-3">
+    <mxGraphModel dx="803" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="cQTj-ZxfDCMRpGrTYeE--0" />
+        <mxCell id="cQTj-ZxfDCMRpGrTYeE--1" parent="cQTj-ZxfDCMRpGrTYeE--0" />
+        <mxCell id="cQTj-ZxfDCMRpGrTYeE--2" value="init aşaması&lt;br&gt;tcp conn&lt;br&gt;socket open" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cQTj-ZxfDCMRpGrTYeE--1">
+          <mxGeometry x="80" y="80" width="120" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
